@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import '../common/navigation.dart';
-import '../common/styles.dart';
 import '../data/model/article.dart';
 import '../ui/article_detail_page.dart';
 
@@ -13,7 +12,6 @@ class CardArticle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      color: primaryColor,
       child: ListTile(
         contentPadding: const EdgeInsets.symmetric(
           horizontal: 16,
