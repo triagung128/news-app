@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../data/api/api_service.dart';
 import '../data/model/article.dart';
-
-enum ResultState { loading, noData, hasData, error }
+import '../utils/result_state.dart';
 
 class NewsProvider extends ChangeNotifier {
   final ApiService apiService;
